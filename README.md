@@ -61,7 +61,7 @@ After converting to TensorFlow Lite and running on Raspberry Pi 5:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/real-time-trash-classification.git
+   git clone https://github.com/Fanuelpeter007/Waste-Sorting
 2. Install dependencies:
    ```bash
    pip install tensorflow tensorflow-lite opencv-python
