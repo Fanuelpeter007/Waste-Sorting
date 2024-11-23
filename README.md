@@ -78,3 +78,5 @@ Experiment with advanced augmentation techniques for dataset enrichment.
 Explore deployment on alternative embedded platforms, such as NVIDIA Jetson.
 
 
+# Check out the project here:
+https://www.dropbox.com/scl/fi/gn2253p7blcot3ejch9rx/Trash-classifier-video.mp4?rlkey=lbdat4oshmrfep06salcrdqlg&e=1&st=50te1myi&dl=0
