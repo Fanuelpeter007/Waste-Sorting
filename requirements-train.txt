@@ -1,0 +1,3 @@
+# Training on a PC or Colab (src/train_classifier.py)
+tensorflow==2.15.1
+numpy==1.26.4

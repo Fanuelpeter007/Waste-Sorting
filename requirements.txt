@@ -1,0 +1,6 @@
+# Raspberry Pi 5 runtime (src/sorter.py, src/benchmark_tflite.py)
+tensorflow==2.15.1
+numpy==1.26.4
+opencv-python==4.9.0.80
+gpiozero==2.0.1
+lgpio==0.2.2.0
