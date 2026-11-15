@@ -5,6 +5,10 @@ plastic and trash. A camera on a Raspberry Pi 5 takes a picture of each item, a
 TensorFlow Lite model classifies it, and a pneumatic actuator pushes it into
 the right bin.
 
+Paper: [Performance Evaluation of Deep Learning Models for Real-Time Trash
+Classification on Embedded Devices](https://doi.org/10.1109/ICSPIS63676.2024.10812636),
+IEEE ICSPIS 2024. See [Paper](#paper) for the citation.
+
 ![Detection examples from the TFLite notebook](docs/images/detection-examples.jpg)
 
 Video of the system: [Dropbox](https://www.dropbox.com/scl/fi/gn2253p7blcot3ejch9rx/Trash-classifier-video.mp4?rlkey=lbdat4oshmrfep06salcrdqlg&e=1&st=50te1myi&dl=0)
@@ -155,6 +159,29 @@ src/           Sorter, classifier training and benchmark scripts
   saved outputs stop after 3 of the 100 planned epochs.
 - TrashNet photos show one item on a plain background. Real waste on a belt is
   more varied, so accuracy in use will likely be lower.
+
+## Paper
+
+A. Ahmed, F. Petros, T. Yemane, F. Flitti and Y. Benachour, "Performance
+Evaluation of Deep Learning Models for Real-Time Trash Classification on
+Embedded Devices," *2024 7th International Conference on Signal Processing and
+Information Security (ICSPIS)*, Dubai, United Arab Emirates, 2024, pp. 1-6,
+doi: [10.1109/ICSPIS63676.2024.10812636](https://doi.org/10.1109/ICSPIS63676.2024.10812636).
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{Ahmed_2024,
+  title     = {Performance Evaluation of Deep Learning Models for Real-Time Trash Classification on Embedded Devices},
+  author    = {Ahmed, Abduselam and Petros, Fanuel and Yemane, Tomas and Flitti, Farid and Benachour, Yassine},
+  booktitle = {2024 7th International Conference on Signal Processing and Information Security (ICSPIS)},
+  publisher = {IEEE},
+  year      = {2024},
+  month     = nov,
+  pages     = {1--6},
+  doi       = {10.1109/ICSPIS63676.2024.10812636}
+}
+```
 
 ## Credits
 
